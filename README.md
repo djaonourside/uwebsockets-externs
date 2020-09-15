@@ -41,7 +41,7 @@ class Example
 			compression: UWebSockets.DEDICATED_COMPRESSOR_3KB,
 			/* For brevity we skip the other events (upgrade, open, ping, pong, close) */
 			message: (ws, data, isBinary) -> {
-				/* You can do app.publish('sensors/home/temperature', '22C') kind of pub/sub as well */
+			/* You can do app.publish('sensors/home/temperature', '22C') kind of pub/sub as well */
     
     			/* Here we echo the message back, using compression if available */
 				final ok = ws.send(data, isBinary);
