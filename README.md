@@ -33,17 +33,17 @@ class Example
 	{
 		UWebSockets.SSLApp({
 			key_file_name: 'misc/key.pem',
-  			cert_file_name: 'misc/cert.pem',
+			cert_file_name: 'misc/cert.pem',
 		}).ws('/*', {
 			idleTimeout: 30,
-  			maxBackpressure: 1024,
+			maxBackpressure: 1024,
 			maxPayloadLength: 512,
 			compression: UWebSockets.DEDICATED_COMPRESSOR_3KB,
 			/* For brevity we skip the other events (upgrade, open, ping, pong, close) */
 			message: (ws, data, isBinary) -> {
 			/* You can do app.publish('sensors/home/temperature', '22C') kind of pub/sub as well */
-    
-    			/* Here we echo the message back, using compression if available */
+
+			/* Here we echo the message back, using compression if available */
 				final ok = ws.send(data, isBinary);
 			}
 		}).get('/*', (res, req) -> { 
