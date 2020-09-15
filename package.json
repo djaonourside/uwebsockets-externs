@@ -1,0 +1,12 @@
+{
+  "name": "haxe-uwebsockets-externs",
+  "version": "1.0.0",
+  "scripts": {
+    "compile:examples": "haxe build-examples.hxml",
+    "run:example": "node examples/bin/HelloWorld.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v18.5.0"
+  }
+}

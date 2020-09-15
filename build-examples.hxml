@@ -1,0 +1,23 @@
+--library hxnodejs
+--class-path examples/src
+--class-path src
+
+--each
+
+--main HelloWorld 
+--js examples/bin/HelloWorld.js
+
+--next
+
+--main JsonPost
+--js examples/bin/JsonPost.js
+
+--next
+
+--main WebSockets
+--js examples/bin/WebSockets.js
+
+--next
+
+--main Router
+--js examples/bin/Router.js

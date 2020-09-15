@@ -1,0 +1,11 @@
+{
+	"name": "uwebsockets",
+	"url" : "https://github.com/djaonourside/uwebsockets-externs",
+	"license": "MIT",
+	"tags": ["websocket", "http"],
+	"description": "Haxe externs for uwebsockets library",
+	"version": "0.0.1",
+	"classPath": "src/",
+	"releasenote": "Initial release",
+	"contributors": ["djaonourside"]
+}
