@@ -2,7 +2,7 @@
 
 [µWebSockets](https://github.com/uNetworking/uWebSockets) is a simple to use yet thoroughly optimized implementation of HTTP and WebSockets. It is fast enough to do encrypted TLS 1.3 messaging quicker than most alternative servers can do even unencrypted, cleartext messaging.
 
-[µWebSockets.js](https://github.com/uNetworking/uWebSockets.js) µWebSockets.js is a C++ implementation of the Http/WebSocket protocols for Node.js. It is a faster Express.js/Socket.IO/any JavaScript implementation.
+[µWebSockets.js](https://github.com/uNetworking/uWebSockets.js) is a C++ implementation of the Http/WebSocket protocols for Node.js. It is a faster Express.js/Socket.IO/any JavaScript implementation.
 
 The project is externs of it for a strictly-typed multi-target programming language [haxe](https://haxe.org/). Now js target externs are only implemented falling back into µWebSockets.js. Any help in cpp and hashlink externs implementation is appreciated.
 
